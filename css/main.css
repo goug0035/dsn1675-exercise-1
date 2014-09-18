@@ -25,31 +25,45 @@ body {
   padding: 0;
 }
 
-.figure {
+.dino {
+    background-color: #fff;
+    overflow: hidden
+}
+.billboard{
     margin: 0;
-    position: relative;
+    position: relative
 }
 
-.figcaption {
+.figcap {
+    background-color: rgba(0,0,0,0.3);
     position: absolute;
-    
-
+    bottom: 5px;
 }
-.img{
+
+.figure {
     display: block;
+    margin: 0;
+}
+
+.img{
     width: 100%;
 }        
 
 .h1 {
+    padding: 1em;
     
 }
 
-.period {
+.list {
+    float: left;
+    overflow: hidden;
+    padding: 1em;
+    width: 33.3333%;
+    border-right: 1px solid #ccc;    
 }
 
-.length {
+.list:last-child {
+    border: 0;
 }
-
-.diet {
-}
-
+    
+    
